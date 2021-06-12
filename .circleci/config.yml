@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/rollup-plugin-just-gzip
     docker:
-      - image: circleci/node:8@sha256:cf63f9a9a1eed0a978072293a4a4e35a53f0a77655c64a0ad51ca332e138c82a
+      - image: circleci/node:12@sha256:3922d9376dddd4baf2747e48d2bd47fe6cc61ebbd631d97c80a07b0a6ac7ac4d
     steps:
       - checkout
       - restore_cache:
